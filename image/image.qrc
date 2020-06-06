@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>part.JPG</file>
+        <file>add.png</file>
+        <file>sub.png</file>
+        <file>about_.png</file>
+        <file>copy_.png</file>
+        <file>display_.png</file>
+        <file>interaction_.png</file>
+        <file>load_.png</file>
+        <file>material_.png</file>
+        <file>off_.png</file>
+        <file>part_.png</file>
+        <file>step_.png</file>
+        <file>mini_.png</file>
+        <file>mylogo.png</file>
+        <file>file.png</file>
+        <file>create_.png</file>
+        <file>logo.png</file>
+    </qresource>
+</RCC>

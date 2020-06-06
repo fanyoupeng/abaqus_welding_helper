@@ -1,0 +1,97 @@
+/*默认字体颜色*/
+*{
+    color: #000000;
+}
+
+QMainWindow{
+    background:#50585a;
+}
+
+/*顶部*/
+QWidget#wdTop QLabel{
+    color:#ffffff;/*文字颜色*/
+    background:#383e41;
+}
+
+QWidget#wdTop QAbstractButton{
+    border-style:none;
+    background:#383e41;
+}
+
+/*左边*/
+QWidget#wdLeft{
+    background:#38535c;
+    border-style:none;
+}
+
+QWidget#wdLeft QAbstractButton{
+    border-style:none;
+    background:#383e41;
+    color:#ffffff;/*文字颜色*/
+    font-size:20px;/*字体大小*/
+}
+    
+QWidget#wdLeft QAbstractButton:checked{
+    border-style:solid;
+    border-width:0px 5px 0px 0px;/*线框大小*/
+    border-color:#dddddd;/*线框颜色*/
+    background:#2a755c;
+}
+
+/*中间*/
+QScrollArea#saWeld{
+    border-style:none;
+    background:#dddddd;
+}
+
+QWidget#scrollAreaWidgetContents{
+    background:#dddddd;
+}
+
+QWidget#scrollAreaWidgetContents QTableWidget{
+    background:#ffffff;
+}
+
+QLabel#lbPart1,#lbMate1,#lbStep1,#lbInte1,#lbLoad1{
+    background:#525991;
+    color:#ffffff;/*文字颜色*/
+    font: 14pt "新宋体"
+}
+
+/*右边*/
+QWidget#wdScript{
+    background:#383e41;
+}
+
+QWidget#wdScript QLabel{
+    color:#ffffff;/*文字颜色*/
+    background:#383e41;
+}
+
+QTextEdit#teScript{
+    background:#dddddd;
+    border-style:none;
+}
+
+/*底部*/
+QWidget#wdTool{
+    background:#383e41;
+}
+
+QWidget#wdTool QAbstractButton{
+    color:#ffffff;/*文字颜色*/
+    background:#383e41;
+    border-style:none;
+}
+
+QWidget#wdTool QAbstractButton{
+    border-style:none;
+    background:#383e41;
+    color:#ffffff;/*文字颜色*/
+    font-size:20px;/*字体大小*/
+    }
+    
+QWidget#wdTool QAbstractButton:checked{
+    border-style:none;
+    background:#2a755c;
+}
