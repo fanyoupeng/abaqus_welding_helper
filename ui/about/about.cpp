@@ -46,8 +46,9 @@ void About::guiInit(){
     bt_1->setGeometry(QRect(0, 130, 300, 50));
     bt_1->setStyleSheet(QStringLiteral("background-color: #383e41;font-size:20px;"));
     bt_1->setText("确定");
+
     connect(this->bt_1,SIGNAL(clicked(bool)),this,SLOT(btQuit()));
-    connect(lb_4, SIGNAL(linkActivated(QString)), this, SLOT(openUrl(QString)));
+    connect(this->lb_4, SIGNAL(linkActivated(QString)), this, SLOT(openUrl(QString)));
 }
 
 void About::btQuit(){

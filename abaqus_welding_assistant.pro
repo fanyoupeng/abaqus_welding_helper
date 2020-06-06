@@ -25,17 +25,21 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #添加logo
 RC_ICONS = logo.ico
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    about.cpp
+HEADERS += \
+    ui/about/about.h \
+    ui/body/body.h \
+    ui/create/create.h \
+    ui/mainWindow/mainwindow.h \
+    ui/refresh/refresh.h
 
-HEADERS  += mainwindow.h \
-    about.h
-
-FORMS    += mainwindow.ui
+SOURCES += \
+    ui/about/about.cpp \
+    ui/body/body.cpp \
+    ui/create/create.cpp \
+    ui/mainWindow/mainwindow.cpp \
+    main.cpp \
+    ui/refresh/refresh.cpp
 
 RESOURCES += \
     qss/qss.qrc \
     image/image.qrc
-
-DISTFILES +=

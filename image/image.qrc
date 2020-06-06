@@ -15,7 +15,10 @@
         <file>mini_.png</file>
         <file>mylogo.png</file>
         <file>file.png</file>
-        <file>create_.png</file>
-        <file>logo.png</file>
+        <file>F_.png</file>
+        <file>R_.png</file>
+        <file>S_.png</file>
+        <file>fire_.png</file>
+        <file>change_.png</file>
     </qresource>
 </RCC>

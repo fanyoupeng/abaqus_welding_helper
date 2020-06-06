@@ -8,12 +8,13 @@ QMainWindow{
 }
 
 /*顶部*/
-QWidget#wdTop QLabel{
+QLabel#lb1{
     color:#ffffff;/*文字颜色*/
     background:#383e41;
+    font: 20pt "新宋体";/*字体大小*/
 }
 
-QWidget#wdTop QAbstractButton{
+QToolButton#tbCreat,#tbAbout,#tbMini,#tbClose,#tbDisplayNow,#tbDisplayAll,#tbChange,#tbCopy{
     border-style:none;
     background:#383e41;
 }
@@ -28,7 +29,7 @@ QWidget#wdLeft QAbstractButton{
     border-style:none;
     background:#383e41;
     color:#ffffff;/*文字颜色*/
-    font-size:20px;/*字体大小*/
+    font: 16pt "新宋体";/*字体大小*/
 }
     
 QWidget#wdLeft QAbstractButton:checked{
@@ -38,24 +39,26 @@ QWidget#wdLeft QAbstractButton:checked{
     background:#2a755c;
 }
 
-/*中间*/
+/*主体*/
 QScrollArea#saWeld{
     border-style:none;
     background:#dddddd;
 }
 
-QWidget#scrollAreaWidgetContents{
+QWidget#wdsa{
     background:#dddddd;
 }
 
-QWidget#scrollAreaWidgetContents QTableWidget{
-    background:#ffffff;
-}
+/*QWidget[type="title_small"]{
+    background:#525991;
+    color:#ffffff;
+    font: 16pt "新宋体";
+}*/
 
-QLabel#lbPart1,#lbMate1,#lbStep1,#lbInte1,#lbLoad1{
+QWidget[type="title_big"]{
     background:#525991;
     color:#ffffff;/*文字颜色*/
-    font: 14pt "新宋体"
+    font: 16pt "新宋体";/*字体大小*/
 }
 
 /*右边*/
@@ -66,6 +69,7 @@ QWidget#wdScript{
 QWidget#wdScript QLabel{
     color:#ffffff;/*文字颜色*/
     background:#383e41;
+    font: 14pt "新宋体";/*字体大小*/
 }
 
 QTextEdit#teScript{
